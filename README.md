@@ -25,6 +25,9 @@ In summary, build at your own risk. I am not liable for any damage or injury cau
 
 # Bill of Materials(BOM)
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
+
+Here is a Digikey cart for most of the components. You will need to source the crystal and volume potentiometer from another vendor.
+https://www.digikey.com/en/mylists/list/A9QP98UG8B
 ## Build Components
 - **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
   - **Layers:** 4-layer
