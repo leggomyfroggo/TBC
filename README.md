@@ -57,3 +57,17 @@ https://www.digikey.com/en/mylists/list/A9QP98UG8B
 - **Batteries:** The Tad Boy Color is designed to make use of Joy Con batteries with minimal effort. The outer shroud must be removed to fit properly.
 
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells.
+
+## Shell Ordering Notes
+### CNC Machining
+- When ordering the front shell, make sure you check the box indicating that you need tapped threads.
+- For both front and back shells, be sure to include the technical drawings.
+
+## PCB Components
+- **Harvested GBC Parts:** You will need a donor GBC of revision CPU-05 or earlier -- CPU-06 revisions will NOT work -- that retains the following components in working order:
+  - CPU
+  - RAM
+  - Link port(also available new: [AliExpress](https://www.aliexpress.us/item/3256803930669143.html))
+- **New parts:** The full BOM for the Tad Boy Color be found in the repo, `bom.xlsx`. All non-Game Boy parts can be found in the shared Mouser cart below. Other parts can be obtained at the suggested links.
+  - Non-Game Boy components: [MouserShared Project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2927c2105f)
+  - Game Boy Advance SP cartridge slot: [AliExpress](https://www.aliexpress.us/item/3256802533466823.html)
