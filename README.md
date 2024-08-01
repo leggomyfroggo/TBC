@@ -70,3 +70,63 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
     - [Mouser Shared Project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6273a53e17)
     - [DigiKey Shared Project](https://www.digikey.com/en/mylists/list/A9QP98UG8B) - NOTE: DigiKey does not stock the crystal or volume potentiometer. Order from Mouser if you can.
   - Game Boy Advance SP cartridge slot: [AliExpress](https://www.aliexpress.us/item/3256802533466823.html)
+ 
+# Recommended Assembly Procedure
+At this point, if you feel confident in your skills you can proceed with the complete build from PCB to final unit -- assembly after building the PCB is relatively straightforward.
+
+However, I've devised an assembly strategy after assembling a few units that will allow you to check your work along the way, and I highly recommend that you follow along.
+
+Unless otherwise noted, you should install all highlighted parts in a given step, and then proceed to the corresponding "Testing" section.
+
+## PCB Assembly
+### 1. Tactile switches
+While this step can be done at any point of your choosing, I recommend doing it first for two reasons:
+1. When using a hot plate to install the tactile switches, it's much easier to do so when the PCB is otherwise empty, and
+2. Installing them early lets you better test in later stages.
+
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/buttonsFront.png" width="500">   | N/A  |
+
+### 2. Power
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/powerFront.png" height="400"> | <img src="assembly_images/powerBack.png" height="400"> |
+
+#### Testing:
+To set up for testing, plug the battery into the battery connector below the cartridge slot. With your multimeter in DC voltage mode, verify test point voltages against these values in both on and off states for the system -- the system will be off initially. Tap the power button to toggle it on and off.
+| Test Point | Off  | On  |
+| ---------- | ---- | --- |
+| SW_VCC     | BAT+ | BAT+ |
+| VCC        | ~0V  | BAT+ |
+| 5V         | ~0V  | 5V   |
+| 3V3        | ~0V  | 3.3V |
+
+NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power down, but they should trend down to 0V over time.
+
+### 3. The brains of the operation
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/cpuFront.png" height="400"> | <img src="assembly_images/cpuBack.png" height="400"> |
+
+#### Testing:
+1. Plug the larger end of the screen adapter flex cable into the screen driver board. Connector is bottom contact, meaning the gold fingers should face toward the surface of the PCB.
+2. Plug the other end into the LCD connector on the motherboard. Connector is bottom contact, meaning the gold fingers should face toward the surface of the PCB.
+3. Plug in the battery as in step 2
+4. Turn the system on by pressing the power button
+5. If all is well, you will see the familiar GBC boot screen appear. If the colors look funky, it's likely that not all CPU or RAM pins have been sufficiently joined to their pads. I highly recommend fixing this before installing the cart slot and link port as they will make access much harder.
+
+### 4. Cart slot
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/cartSlotFront.png" height="200"> | <img src="assembly_images/cartSlotBack.png" height="200"> |
+
+1. Plug in the battery as in step 2
+2. Insert a cartridge into the cart slot
+3. Turn the system on by pressing the power button
+4. If all is well, the cartridge will boot and play correctly.
+
+### 4. Audio
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/audioFront.png" height="400"> | <img src="assembly_images/audioBack.png" height="400"> |
