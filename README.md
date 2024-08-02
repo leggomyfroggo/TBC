@@ -107,7 +107,7 @@ NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power 
 ### 3. The brains of the operation
 | Front Parts | Back Parts |
 | ----------- | ---------- |
-| <img src="assembly_images/cpuFront.png" height="400"> | <img src="assembly_images/cpuBack.png" height="400"> |
+| <img src="assembly_images/cpuFront.png" height="300"> | <img src="assembly_images/cpuBack.png" height="300"> |
 
 #### Testing:
 1. Plug the larger end of the screen adapter flex cable into the screen driver board. Connector is bottom contact, meaning the gold fingers should face toward the surface of the PCB.
@@ -132,7 +132,7 @@ NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power 
 ### 5. Audio
 | Front Parts | Back Parts |
 | ----------- | ---------- |
-| <img src="assembly_images/audioFront.png" height="400"> | <img src="assembly_images/audioBack.png" height="400"> |
+| <img src="assembly_images/audioFront.png" height="300"> | <img src="assembly_images/audioBack.png" height="300"> |
 
 #### Testing:
 1. Plug in the battery as in step 2.
@@ -168,7 +168,7 @@ NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power 
 ### 8. EXT port
 | Front Parts | Back Parts |
 | ----------- | ---------- |
-| <img src="assembly_images/linkPortFront.png" height="400"> | <img src="assembly_images/linkPortBack.png" height="400"> |
+| <img src="assembly_images/linkPortFront.png" height="300"> | <img src="assembly_images/linkPortBack.png" height="300"> |
 
 #### Testing:
 1. Plug in the battery as in step 2.
