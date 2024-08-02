@@ -112,21 +112,66 @@ NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power 
 #### Testing:
 1. Plug the larger end of the screen adapter flex cable into the screen driver board. Connector is bottom contact, meaning the gold fingers should face toward the surface of the PCB.
 2. Plug the other end into the LCD connector on the motherboard. Connector is bottom contact, meaning the gold fingers should face toward the surface of the PCB.
-3. Plug in the battery as in step 2
-4. Turn the system on by pressing the power button
+3. Plug in the battery as in step 2.
+4. Turn the system on by pressing the power button.
 5. If all is well, you will see the familiar GBC boot screen appear. If the colors look funky, it's likely that not all CPU or RAM pins have been sufficiently joined to their pads. I highly recommend fixing this before installing the cart slot and link port as they will make access much harder.
+6. Turn off the system and unplug the battery.
 
 ### 4. Cart slot
 | Front Parts | Back Parts |
 | ----------- | ---------- |
 | <img src="assembly_images/cartSlotFront.png" height="200"> | <img src="assembly_images/cartSlotBack.png" height="200"> |
 
-1. Plug in the battery as in step 2
-2. Insert a cartridge into the cart slot
-3. Turn the system on by pressing the power button
+#### Testing:
+1. Plug in the battery as in step 2.
+2. Insert a cartridge into the cart slot.
+3. Turn the system on by pressing the power button.
 4. If all is well, the cartridge will boot and play correctly.
+5. Turn off the system and unplug the battery.
 
-### 4. Audio
+### 5. Audio
 | Front Parts | Back Parts |
 | ----------- | ---------- |
 | <img src="assembly_images/audioFront.png" height="400"> | <img src="assembly_images/audioBack.png" height="400"> |
+
+#### Testing:
+1. Plug in the battery as in step 2.
+2. Hold the contacts of the speaker to the corresponding pads on the motherboard.
+3. Turn the system on by pressing the power button.
+4. You should hear the start up "ding" if audio is working. If not, make sure the volume is turned up.
+5. Turn off the system and unplug the battery.
+
+### 6. Screen brightness control
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/brightnessFront.png" height="400"> | N/A |
+
+#### Testing:
+1. Plug in the battery as in step 2.
+2. Turn the system on by pressing the power button.
+3. Press down + select at the same time and verify that the brightness level changes.
+4. Long press down + select and verify that the pixel mode changes.
+5. Turn off the system and unplug the battery.
+
+### 7. Indicator LEDs
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/ledsFront.png" height="400"> | N/A |
+
+#### Testing:
+1. Plug in the battery as in step 2.
+2. Turn the system on by pressing the power button.
+3. If the battery voltage is above 3.5V, D2 should illuminate. If it is below, D3 will illuminate.
+4. Plug in a USB-C cable. D1 should illuminate to indicate that the battery is charging.
+5. Turn off the system and unplug the battery.
+
+### 8. EXT port
+| Front Parts | Back Parts |
+| ----------- | ---------- |
+| <img src="assembly_images/linkPortFront.png" height="400"> | <img src="assembly_images/linkPortBack.png" height="400"> |
+
+#### Testing:
+1. Plug in the battery as in step 2.
+2. Turn the system on by pressing the power button.
+3. Connect a link cable from the EXT port to the EXT port of a known working Game Boy and verify functionality with a game of your choosing.
+4. Turn off the system and unplug the battery.
