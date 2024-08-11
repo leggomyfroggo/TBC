@@ -37,7 +37,7 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 - **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
   - Step file available in `production_files\accessories\volume_wheel` folder so you can get it produced where you wish.
   - 081124 version can fit a 8mm(OD)x5mm(ID)x0.5mm PTFE coated nylon washer to reduce friction between wheel and shell.
-  - **Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
 - **Cartridge Shield:** Custom piece that fits behind the cartridge, allowing for a large enough opening in the metal shell to machine. Can be FDM printed with supports, or with SLS/MJF nylon.
   - STL files available in `production_files\accessories\cart_shield` folder so you can get it produced where you wish.
 - **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
