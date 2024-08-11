@@ -33,13 +33,15 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   - **Surface finish:** HASL or ENIG
   - **Color:** Whatever you want
 - **Shell:** The shell for the Tad Boy Color is a fully custom design, designed specifically for CNC machining. Order in other materials at your own risk
+  - PCBWay link coming soon
 - **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
-  - Step file available in `Accessories` folder so you can get it produced where you wish.
-  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+  - Step file available in `production_files\accessories\volume_wheel` folder so you can get it produced where you wish.
+  - 081124 version can fit a 8mm(OD)x5mm(ID)x0.5mm PTFE coated nylon washer to reduce friction between wheel and shell.
+  - **Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
 - **Cartridge Shield:** Custom piece that fits behind the cartridge, allowing for a large enough opening in the metal shell to machine. Can be FDM printed with supports, or with SLS/MJF nylon.
-  - STL files available in `Accessories` folder so you can get it produced where you wish.
+  - STL files available in `production_files\accessories\cart_shield` folder so you can get it produced where you wish.
 - **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
-  - STL files available in `Accessories` folder so you can get them produced where you wish.
+  - STL files available in `production_files\accessories\light_pipe` folder so you can get them produced where you wish.
 - **Screws:** The shell is designed to be put together using 7 x M2 3mm machine screws with flat tops. Options:
   - **450pcs M2 M2.5 M3 Screw Kit:** [From Amazon](https://www.amazon.com/gp/product/B07TDHZJLL/)
 - **Buttons:** The Tad Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
