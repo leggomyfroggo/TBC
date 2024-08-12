@@ -32,6 +32,10 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   - **Thickness:** 1mm
   - **Surface finish:** HASL or ENIG
   - **Color:** Whatever you want
+- **LCD Adapter Flex:** The shape of the board and LCD connector used on the main PCB requires the use of a custom flex cable to connect the TBC to the screen kit. The following bord paramters should be used:
+  - **Layers:** 2-layer
+  - **Thickness:** 0.1mm or 0.11mm FFC
+  - **Stiffener:** 0.2mm PI stiffener on edge connectors for total 0.3mm thickness. Have your chosen fab refer to the stiffener instructions on the "User Comments" layer
 - **Shell:** The shell for the Tad Boy Color is a fully custom design, designed specifically for CNC machining. Order in other materials at your own risk
   - PCBWay link coming soon
 - **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
