@@ -25,6 +25,7 @@ Assembly of the Tad Boy requires intermediate-advanced skills in soldering and e
 - Soldering of small surface mount components, down to 0402
 - Soldering of leadless ICs, for example the TPS61202
 - Proficiency with a multimeter for troubleshooting and validation
+
 This is in no way a project for beginners, and if you don't have experience with the above, I highly recommend starting smaller -- solder practice kits are cheap and easily available.
 
 Along with needing the requisite skills, there is a very real possibility that you will irreparably damage either your donor Game Boy Color, or the resulting Tad Boy. Even the most skilled among us make mistakes, but it's important to keep in mind your own limits to avoid heartache and sorrow.
@@ -34,28 +35,27 @@ I am in no way a professional electrical engineer. All of my skills are self tau
 In summary, build at your own risk. I am not liable for any damage or injury caused by your insatiable need to build a Game Boy named after a baby amphibian.
 
 # Bill of Materials(BOM)
-Below is the breakdown of all materials you will need to build a Frog Boy Color.
+Below is the breakdown of all materials you will need to build a Tad Boy Color.
 
 ## Build Components
-- **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
+- **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters are **required**, all other paremeters(color, surface finish, etc) are up to you:
   - **Layers:** 4-layer
   - **Thickness:** 1mm
-  - **Surface finish:** HASL or ENIG
-  - **Color:** Whatever you want
-- **LCD Adapter Flex:** The shape of the board and LCD connector used on the main PCB requires the use of a custom flex cable to connect the TBC to the screen kit. The following bord paramters should be used:
+- **LCD Adapter Flex:** The shape of the board and LCD connector used on the main PCB requires the use of a custom flex cable to connect the TBC to the screen kit. The following parameters are **required**:
   - **Layers:** 2-layer
   - **Thickness:** 0.1mm or 0.11mm FFC
   - **Stiffener:** 0.2mm PI stiffener on edge connectors for total 0.3mm thickness. Have your chosen fab refer to the stiffener instructions on the "User Comments" layer
-- **Shell:** The shell for the Tad Boy Color is a fully custom design, designed specifically for CNC machining. Order in other materials at your own risk
+- **Shell:** The shell for the Tad Boy Color is a fully custom design, designed specifically for CNC machining -- resin 3D printing should work, but is untested. Tested and verified materials are below, but all orders are at your own risk:
+  - Verified CNC materials: Aluminum, polycarbonate, stainless steel
   - PCBWay link coming soon
 - **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
-  - Step file available in `production_files\accessories\volume_wheel` folder so you can get it produced where you wish.
   - 081124 version can fit a 8mm(OD)x5mm(ID)x0.5mm PTFE coated nylon washer to reduce friction between wheel and shell.
   - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
-- **Cartridge Shield:** Custom piece that fits behind the cartridge, allowing for a large enough opening in the metal shell to machine. Can be FDM printed with supports, or with SLS/MJF nylon.
-  - STL files available in `production_files\accessories\cart_shield` folder so you can get it produced where you wish.
-- **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
-  - STL files available in `production_files\accessories\light_pipe` folder so you can get them produced where you wish.
+- **Cartridge Shield:** Custom piece that fits behind the cartridge, allowing for a large enough opening in the metal shell to machine.
+  - Verified 3D printing materials: FDM PLA, SLS nylon, MJF nylon
+  - Verified CNC materials: Aluminum
+- **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them.
+  - Verified 3D printing materials: FDM clear PLA, SLA clear resin
 - **Screws:** The shell is designed to be put together using 7 x M2 3mm machine screws with flat tops. Options:
   - **450pcs M2 M2.5 M3 Screw Kit:** [From Amazon](https://www.amazon.com/gp/product/B07TDHZJLL/)
 - **Buttons:** The Tad Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
@@ -66,7 +66,9 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 - **Screen:** This project is designed exclusively for the CGS 2.45" LCD kit for the Game Boy Color.
   - [Order from RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/game-boy-color-2-45-drop-in-backlight-lcd-kit?variant=41377297629356)
   - [Order from AliExpress](https://www.aliexpress.us/item/3256803777135552.html)
-- **Screen Lens:** The Tad Boy color makes use of a custom designed screen lens. Technical drawings are available in the `Accessories` folder for you to order your own at a manufacturer of your choice. I will also try to keep them in stock on my website.
+- **Screen Lens:** The Tad Boy color makes use of a custom designed glass screen lens. Suggested suppliers:
+  - **FroggoCustoms(pre-made):**
+  - Alibaba, requires obtaining quote with technical drawings
 - **Batteries:** The Tad Boy Color is designed to make use of Joy Con batteries with minimal effort. The outer shroud must be removed to fit properly.
 
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells.
@@ -74,7 +76,7 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ## Shell Ordering Notes
 ### CNC Machining
 - When ordering the front shell, make sure you check the box indicating that you need tapped threads.
-- For both front and back shells, be sure to include the technical drawings.
+- For both front and back shells, be sure to include the technical drawings, and select 0.1mm as the tightest tolerance.
 
 ## PCB Components
 - **Harvested GBC Parts:** You will need a donor GBC of revision CPU-05 or earlier -- CPU-06 revisions will NOT work -- that retains the following components in working order:
