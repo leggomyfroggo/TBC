@@ -38,8 +38,10 @@ In summary, build at your own risk. I am not liable for any damage or injury cau
 - The files you will need to produce the Tad Boy Color parts are located in the `production_files` folder.
   - Files for each major piece are located in their own subfolders.
   - In general, production files are named according to the name of the part plus a 6 digit date code indicating the date of release.
+    - PCB versions are the exception to this rule, and are labeled according to the board revision, e.g. X5, 01, 02, etc
   - Production files for old parts are located in those parts' respective `archive` folders.
   - The latest versions of each part will be guaranteed to work with one another. I only recommend downloading archived versions if you really know what you're doing.
+- An interactive BOM is available in the `ibom` folder. iBOMs for different PCB revisions are in their own subfolders. Select the iBOM version that matches your PCB.
 
 # Bill of Materials(BOM)
 Below is the breakdown of all materials you will need to build a Tad Boy Color.
