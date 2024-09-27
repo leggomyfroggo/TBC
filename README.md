@@ -1,4 +1,7 @@
 # TBC
+
+<img src="readmeCover.jpg" height="600">
+
 The Tad Boy color is an answer to the question: how small can you make a Game Boy Color while still accepting original cartridges? That's it, that's all you get.
 
 # Attribution
