@@ -50,21 +50,25 @@ Below is the breakdown of all materials you will need to build a Tad Boy Color.
 - **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters are **required**, all other paremeters(color, surface finish, etc) are up to you:
   - **Layers:** 4-layer
   - **Thickness:** 1mm
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **LCD Adapter Flex:** The shape of the board and LCD connector used on the main PCB requires the use of a custom flex cable to connect the TBC to the screen kit. The following parameters are **required**:
   - **Layers:** 2-layer
   - **Thickness:** 0.1mm or 0.11mm FFC
   - **Stiffener:** 0.2mm PI stiffener on edge connectors for total 0.3mm thickness. Have your chosen fab refer to the stiffener instructions on the "User Comments" layer
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_LCD_Adapter_Flex_44b0462a.html)
 - **Shell:** The shell for the Tad Boy Color is a fully custom design, designed specifically for CNC machining -- resin 3D printing should work, but is untested. Tested and verified materials are below, but all orders are at your own risk:
   - Verified CNC materials: Aluminum, polycarbonate, stainless steel
-  - PCBWay link coming soon
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
   - 081124 version can fit a 8mm(OD)x5mm(ID)x0.5mm PTFE coated nylon washer to reduce friction between wheel and shell.
-  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **Cartridge Shield:** Custom piece that fits behind the cartridge, allowing for a large enough opening in the metal shell to machine.
   - Verified 3D printing materials: FDM PLA, SLS nylon, MJF nylon
   - Verified CNC materials: Aluminum
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them.
   - Verified 3D printing materials: FDM clear PLA, SLA clear resin
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **Screws:** The shell is designed to be put together using 7 x M2 3mm machine screws with flat tops. Options:
   - **450pcs M2 M2.5 M3 Screw Kit:** [From Amazon](https://www.amazon.com/gp/product/B07TDHZJLL/)
 - **Buttons:** The Tad Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
