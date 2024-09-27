@@ -1,0 +1,85 @@
+pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+149.75,-131.9,0,top,C1,,C_0402_1005Metric,"1uF, 25V",smt,True
+153.37,-116,180,bottom,C10,,C_0402_1005Metric,"100nF, 16V",smt,True
+127.18,-126.35,0,top,C11,,C_0402_1005Metric,"100nF, 16V",smt,True
+162.67,-77.825,180,bottom,C12,,C_0402_1005Metric,"100nF, 16V",smt,True
+116.575,-122.95,180,top,C13,,C_0603_1608Metric,"4.7uF, 16V",smt,True
+108.9,-124.25,90,top,C14,,C_0603_1608Metric,"4.7uF, 16V",smt,True
+120.9,-129.78,90,top,C15,,C_0402_1005Metric,"100nF, 16V",smt,True
+120.625,-130.245,90,bottom,C16,,C_0402_1005Metric,"1uF, 25V",smt,True
+121.02,-119.75,180,top,C17,,C_0402_1005Metric,"1uF, 25V",smt,True
+119.17,-124.45,180,top,C18,,C_0402_1005Metric,"2.2uF, 16V",smt,True
+116.575,-121.15,0,top,C19,,C_0603_1608Metric,"10uF, 16V",smt,True
+135.1,-127.93,-90,bottom,C2,,C_0402_1005Metric,"22pF, 50V",smt,True
+115.68,-115.3,0,top,C20,,C_0402_1005Metric,"1uF, 25V",smt,True
+112.175,-116,180,top,C21,,C_1206_3216Metric,"22uF, 10V",smt,True
+157.45,-119.58,90,top,C22,,C_0402_1005Metric,"2.2uF, 16V",smt,True
+162.745,-119.675,180,top,C23,,C_0402_1005Metric,"0.22uF, 16V",smt,True
+162.745,-124.525,180,top,C24,,C_0402_1005Metric,"0.22uF, 16V",smt,True
+157.45,-124.12,-90,top,C25,,C_0402_1005Metric,"2.2uF, 16V",smt,True
+156.05,-56.87,90,bottom,C26,,C_0402_1005Metric,"1uF, 25V",smt,True
+156.05,-54.86,90,bottom,C27,,C_0402_1005Metric,"100nF, 16V",smt,True
+161.27,-58.6,180,bottom,C28,,C_0402_1005Metric,"22pF, 50V",smt,True
+158.65,-83.575,180,bottom,C29,,C_0402_1005Metric,"100nF, 16V",smt,True
+140.72,-131.35,180,bottom,C3,,C_0402_1005Metric,"100pF, 50V",smt,True
+158.77,-58.6,0,bottom,C30,,C_0402_1005Metric,"22pF, 50V",smt,True
+137.32,-131.35,180,bottom,C4,,C_0402_1005Metric,"100pF, 50V",smt,True
+162.625,-111.955,90,top,C5,,C_0402_1005Metric,"100nF, 16V",smt,True
+143.67,-131.35,180,bottom,C6,,C_0402_1005Metric,"100pF, 50V",smt,True
+110.38,-107.8,180,top,C7,,C_0402_1005Metric,"100nF, 16V",smt,True
+147.5,-128.73,-90,top,C8,,C_0402_1005Metric,"100nF, 16V",smt,True
+135.85,-115.15,-90,bottom,C9,,C_0402_1005Metric,"100nF, 16V",smt,True
+162.85,-52.2,90,bottom,D1,,LED_0603_1608Metric,YELLOW LED,smt,True
+160.4375,-51.45,180,bottom,D2,,LED_0603_1608Metric,GREEN LED,smt,True
+160.4375,-53.15,0,bottom,D3,,LED_0603_1608Metric,RED LED,smt,True
+120.95,-116.8,-90,top,F1,,Fuse_1206_3216Metric,2.5A,smt,True
+123.6625,-126.35,0,top,F2,,Fuse_0603_1608Metric,1A,smt,True
+117.25,-128.8,0,bottom,IC1,,SOT95P270X145-5N,MCP1319MT-33AE_OT,smt,True
+160.425,-81,90,bottom,IC2,,SOT65P210X110-5N,74AHCT1G02DCKRG4,smt,True
+159.487,-68.35,90,bottom,J3,,FH3328S05SH10,28P bottom,smt,True
+115.475,-114.435,0,top,J4,,78171-0002,78171-0002,smt,True
+126.88,-132.85,0,top,J5,,GCT_USB4105-GF-A,USB4105-GF-A,smt,True
+112.65,-119.1,90,top,L1,,VLS3012,2.2uH,smt,True
+119.9,-126.85,90,top,Q1,,SOT96P240X110-3N,DMP6350SQ-7,smt,True
+157.525,-81,90,bottom,Q2,,SOT65P220X100-3N,NTS4409NT1G,smt,True
+150.2,-129.79,90,top,R1,,R_0402_1005Metric,"10K, 1%",smt,True
+117.11,-124.35,0,top,R10,,R_0402_1005Metric,"10K, 1%",smt,True
+133.2,-131.45,180,top,R11,,R_0402_1005Metric,"5.1K ,1%",smt,True
+119.95,-126.35,180,bottom,R12,,R_0402_1005Metric,"100K, 1%",smt,True
+162.71,-121.325,180,top,R13,,R_0402_1005Metric,"100, 1%",smt,True
+162.715,-122.9,180,top,R14,,R_0402_1005Metric,"100, 1%",smt,True
+158.315,-112.325,180,bottom,R15,,R_0402_1005Metric,"15K, 1%",smt,True
+149.8,-119.94,-90,bottom,R16,,R_0402_1005Metric,"5.1K, 1%",smt,True
+156.51,-51.2,0,bottom,R17,,R_0402_1005Metric,"5.6K, 1%",smt,True
+156.525,-53.35,180,bottom,R18,,R_0402_1005Metric,"3.3K, 1%",smt,True
+161.83,-55.9,180,bottom,R19,,R_0402_1005Metric,"430K, 0.5%",smt,True
+136.29,-126.35,0,bottom,R2,,R_0402_1005Metric,"100, 1%",smt,True
+161.84,-57.05,180,bottom,R20,,R_0402_1005Metric,"20K, 0.5%",smt,True
+161.84,-54.7,180,bottom,R21,,R_0402_1005Metric,"47K, 0.5%",smt,True
+117.825,-126.35,180,bottom,R22,,R_0402_1005Metric,"10K, 1%",smt,True
+156.875,-126.875,90,top,R3,,R_0402_1005Metric,"5.6K, 1%",smt,True
+108.65,-119.54,90,top,R4,,R_0402_1005Metric,"200K, 1%",smt,True
+115.275,-112.275,-90,bottom,R5,,R_0402_1005Metric,"1K, 1%",smt,True
+108.65,-121.61,-90,top,R6,,R_0402_1005Metric,"49.9K, 1%",smt,True
+109.7,-119.54,90,top,R7,,R_0402_1005Metric,"3.3K, 1%",smt,True
+133.2,-130.1,180,top,R8,,R_0402_1005Metric,"5.1K, 1%",smt,True
+159.84,-49.775,0,bottom,R9,,R_0402_1005Metric,"1K, 1%",smt,True
+149.3,-130.05,0,bottom,RN1,,R_Array_Concave_4x0603,"270, 1%",smt,True
+117.15,-131.05,0,top,S1,,SW_SKRTLAE010,SKRTLAE010,smt,True
+143.794332,-102.722771,-45,bottom,SW1,,SKRR,SW_Push,smt,True
+150.694332,-109.622771,-45,bottom,SW2,,SKRR,SW_Push,smt,True
+150.694332,-95.822771,-45,bottom,SW3,,SKRR,SW_Push,smt,True
+157.594332,-102.722771,-45,bottom,SW4,,SKRR,SW_Push,smt,True
+115.85,-97.65,180,bottom,SW5,,SKRR,SW_Push,smt,True
+125.7,-107.55,180,bottom,SW6,,SKRR,SW_Push,smt,True
+129.172025,-123.6,180,bottom,SW7,,SKRR,SW_Push,smt,True
+142.65,-123.65,180,bottom,SW8,,SKRR,SW_Push,smt,True
+153.25,-130.6,0,top,U1,,SOT95P237X112-3N,TLV803EB33VDBZR,smt,True
+112.15,-123.2,0,top,U4,,QFN50P300X300X100-17N-D,BQ24072TRGTR,smt,True
+116.25,-126.875,90,top,U5,,SOT95P275X110-6N,MAX16054AZT+T,smt,True
+120.2,-122.15,0,top,U6,,SOT95P237X112-3N,MCP1799T-3302H_TT,smt,True
+117.35,-118.05,0,top,U7,,Texas_DSC0010J_ThermalVias,TPS61202DSC,smt,True
+159.95,-121.85,90,top,U8,,SOP65P490X110-8N,LM4875MM_NOPB,smt,True
+158.61,-56,180,bottom,U9,,SOT95P280X145-5N,TLV3201AIDBVR,smt,True
+152.65,-120.15,180,bottom,VR1,,RK08H113003Q,10K,tht,True
+159.925,-111.325,180,top,X1,,Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm,8.388MHz,smt,True
