@@ -9,6 +9,13 @@ Before getting to the build, it's important to provide attribution to the other 
 - **[Gekkio/gekkio-kicad-libs](https://github.com/Gekkio/gekkio-kicad-libs)**: The TBC incorporates several of Gekkio's excellent kicad symbols and footprints, including for the CPU, RAM(modified), link port, and cartridge connector. Huge thanks to Gekkio for making these available for others to use!
 - Cody Wick for the incredible name suggestion, holy shit
 
+# License
+The Tad Boy Color and associated files are licensed under a CC BY-NC-ND 4.0 license. In short, this means:
+- If you share the files, you must provide attribution.
+- Commercial uses are not allowed without permission, i.e. production and sale of Tad Boy Colors or parts for profit is not allowed.
+- You are free to modify these files for your own private use, but you are not allowed to distribute modified files.
+Full license is linked at the bottom of this document.
+
 # Disclaimer/Warning/For the love of God, read this
 The Tad Boy is not an easy project, nor is it a professional product, and as such there are some things to keep in mind as you consider building one.
 
@@ -184,3 +191,5 @@ NOTE: The VCC, 5V, and 3V3 rails may retain some voltage following system power 
 2. Turn the system on by pressing the power button.
 3. Connect a link cable from the EXT port to the EXT port of a known working Game Boy and verify functionality with a game of your choosing.
 4. Turn off the system and unplug the battery.
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/leggomyfroggo/TBC/">Tad Boy Color</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/leggomyfroggo">Chris Hackmann</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
