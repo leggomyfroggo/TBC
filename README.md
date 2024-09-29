@@ -80,7 +80,7 @@ Below is the breakdown of all materials you will need to build a Tad Boy Color.
   - [Order from RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/game-boy-color-2-45-drop-in-backlight-lcd-kit?variant=41377297629356)
   - [Order from AliExpress](https://www.aliexpress.us/item/3256803777135552.html)
 - **Screen Lens:** The Tad Boy color makes use of a custom designed glass screen lens. Suggested suppliers:
-  - **FroggoCustoms(pre-made):**
+  - [**Order from FroggoCustoms**](https://froggocustoms.com/products/tad-boy-color-base-kit) - lens coming separately soon
   - Alibaba, requires obtaining quote with technical drawings
 - **Batteries:** The Tad Boy Color is designed to make use of Joy Con batteries with minimal effort. The outer shroud must be removed to fit properly.
 
