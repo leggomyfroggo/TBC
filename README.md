@@ -82,7 +82,7 @@ Below is the breakdown of all materials you will need to build a Tad Boy Color.
 - **Screen Lens:** The Tad Boy color makes use of a custom designed glass screen lens. Suggested suppliers:
   - [**Order from FroggoCustoms**](https://froggocustoms.com/products/tad-boy-color-base-kit) - lens coming separately soon
   - Alibaba, requires obtaining quote with technical drawings
-- **Batteries:** The Tad Boy Color is designed to make use of Joy Con batteries with minimal effort. The outer shroud must be removed to fit properly.
+- **Battery:** The Tad Boy Color is designed to make use of aftermarket Joy Con batteries with minimal effort. The outer shroud/casing must be removed to fit properly. OEM batteries likely won't fit.
 
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells.
 
