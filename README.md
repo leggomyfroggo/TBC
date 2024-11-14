@@ -97,7 +97,7 @@ Below is the breakdown of all materials you will need to build a Tad Boy Color.
   - RAM
   - Link port(also available new: [AliExpress](https://www.aliexpress.us/item/3256803930669143.html))
 - **New parts:** The full BOM for the Tad Boy Color be found in the repo, `bom.xlsx`. All non-Game Boy parts can be found in the shared Mouser cart below, and for that reason is the preferred vendor. Other parts can be obtained at the suggested links.
-  - Non-Game Boy components:
+  - Non-Game Boy components(NOTE: These carts do not contain LEDs. Pick 3 x 0603 LEDs in whatever colors you want for the indicators):
     - [Mouser Shared Project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=6273a53e17)
     - [DigiKey Shared Project](https://www.digikey.com/en/mylists/list/A9QP98UG8B) - NOTE: DigiKey does not stock the crystal or volume potentiometer. Order from Mouser if you can.
   - Game Boy Advance SP cartridge slot: [AliExpress](https://www.aliexpress.us/item/3256802533466823.html)
