@@ -47,9 +47,10 @@ In summary, build at your own risk. I am not liable for any damage or injury cau
 Below is the breakdown of all materials you will need to build a Tad Boy Color.
 
 ## Build Components
-- **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters are **required**, all other paremeters(color, surface finish, etc) are up to you:
+- **PCB:** The Tad Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters are **required** or highly recommended, all other paremeters(color, etc) are up to you:
   - **Layers:** 4-layer
   - **Thickness:** 1mm
+  - **Surface finish(recommended):** ENIG. HASL will probably be okay, but may not play well with the speaker contacts over time.
   - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Tad_Boy_Color_876e4f73.html)
 - **LCD Adapter Flex:** The shape of the board and LCD connector used on the main PCB requires the use of a custom flex cable to connect the TBC to the screen kit. The following parameters are **required**:
   - **Layers:** 2-layer
